@@ -58,7 +58,7 @@ export default function Hero() {
             {/*Right - Image */}
             <div className="flex-1 flex justify-center">
               <Image
-                src="/images/component 5.png"
+                src="/images/wallpaper/Component5.png"
                 alt="Thar Tribe Hostel building"
                 width={500}
                 height={600}
@@ -76,7 +76,7 @@ export default function Hero() {
             {/*  Left -  */}
             <div className="flex-1 flex justify-center">
               <Image
-                src="/images/component 2.png"
+                src="/images/wallpaper/Component2.png"
                 alt="Thar Tribe Hostel building"
                 width={500}
                 height={600}
