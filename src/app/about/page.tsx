@@ -17,7 +17,8 @@ export default function Hero() {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
           {/* Glow effect heading */}
-          <h1 className="text-[100px] font-normal tracking-wide text-[#4A2B24] drop-shadow-lg 
+          <h1
+            className="text-[100px] font-normal tracking-wide text-[#4A2B24] drop-shadow-lg 
             [text-shadow:_0_0_10px_#FF9933,_0_0_20px_#FF9933,_0_0_30px_#FF9933]">
             about us
           </h1>
@@ -36,18 +37,18 @@ export default function Hero() {
               </h3>
 
               <p className="text-lg text-gray-800 mb-8 leading-relaxed">
-                At Thar Tribe Hostels, we offer more than just accommodation —
-                we offer connection. Situated in the historic heart of
+                At Thar Tribe Hostels, we offer more than just accommodation
+                &mdash; we offer connection. Situated in the historic heart of
                 Jaisalmer, our hostel is inspired by the rich traditions of the
-                Thar Desert and the modern needs of today’s global travelers.
-                Each corner of our space reflects the earthy warmth of Rajasthan
-                — from handcrafted décor to authentic community experiences. We
-                host curated tours, desert safaris, cooking sessions, and
-                rooftop gatherings — all designed to help you experience
-                Jaisalmer beyond the guidebooks. Whether you're a solo traveler,
-                a couple, or a crew of adventurers, Thar Tribe Hostels provides
-                a welcoming environment where cultures meet, friendships begin,
-                and memories are made.
+                Thar Desert and the modern needs of today&apos;s global
+                travelers. Each corner of our space reflects the earthy warmth
+                of Rajasthan &mdash; from handcrafted décor to authentic
+                community experiences. We host curated tours, desert safaris,
+                cooking sessions, and rooftop gatherings &mdash; all designed to
+                help you experience Jaisalmer beyond the guidebooks. Whether
+                you&apos;re a solo traveler, a couple, or a crew of adventurers,
+                Thar Tribe Hostels provides a welcoming environment where
+                cultures meet, friendships begin, and memories are made.
               </p>
 
               <button className="bg-[#FF9933] hover:bg-[#e37f1a] text-black px-6 py-3 rounded-lg text-lg font-semibold transition">
@@ -90,20 +91,37 @@ export default function Hero() {
               </h3>
 
               <p className="text-lg text-gray-800 mb-8 leading-relaxed">
-              🧭 Perfect Location
-Just minutes from the iconic Golden Fort and local markets, we’re right where the action is — yet tucked away for peaceful nights under the stars.
-
-💰 Budget-Friendly, No Compromise
-Enjoy affordable stays without cutting back on comfort, cleanliness, or experience. Solo traveler? Group trip? We’ve got your back (and your backpack).
-
-🏕️ Rooftop Hangouts & Desert Vibes
-Chill with fellow travelers over chai, jam sessions, or sunset views — and when you're ready, we’ll help you plan that unforgettable camel safari.
-
-🌍 A Tribe That Feels Like Home
-We’re more than staff — we’re locals who love sharing our culture. Here, you’ll meet real people, make real connections, and probably extend your stay.
-
-🌐 Work, Travel, Repeat
-With free Wi-Fi, cozy common areas, and flexible vibes — we’re perfect for digital nomads and remote hustlers too.
+                🌟 Why Choose Thar Tribe Hostels? <br />
+                <br />
+                1. ✨ Authentic Rajasthani Vibes <br />
+                Every corner of our hostel is inspired by the soul of the Thar
+                Desert &mdash; from locally crafted interiors to cultural
+                touches that make you feel connected to Jaisalmer&apos;s roots.
+                <br />
+                <br />
+                2. 🧭 Perfect Location <br />
+                Just minutes from the iconic Golden Fort and local markets,
+                we&apos;re right where the action is &mdash; yet tucked away for
+                peaceful nights under the stars. <br />
+                <br />
+                3. 💰 Budget-Friendly, No Compromise <br />
+                Enjoy affordable stays without cutting back on comfort,
+                cleanliness, or experience. Solo traveler? Group trip?
+                We&apos;ve got your back (and your backpack). <br />
+                <br />
+                4. 🏕️ Rooftop Hangouts &amp; Desert Vibes <br />
+                Chill with fellow travelers over chai, jam sessions, or sunset
+                views &mdash; and when you&apos;re ready, we&apos;ll help you
+                plan that unforgettable camel safari. <br />
+                <br />
+                5. 🌍 A Tribe That Feels Like Home <br />
+                We&apos;re more than staff &mdash; we&apos;re locals who love
+                sharing our culture. Here, you&apos;ll meet real people, make
+                real connections, and probably extend your stay. <br />
+                <br />
+                6. 🌐 Work, Travel, Repeat <br />
+                With free Wi-Fi, cozy common areas, and flexible vibes &mdash;
+                we&apos;re perfect for digital nomads and remote hustlers too.
               </p>
 
               <button className="bg-[#FF9933] hover:bg-[#e37f1a] text-black px-6 py-3 rounded-lg text-lg font-semibold transition">

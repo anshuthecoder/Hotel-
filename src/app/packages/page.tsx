@@ -44,7 +44,7 @@ export default function Hero() {
   <div className="space-y-16">
     {/* Desert Safari Dinner */}
     <div className="grid md:grid-cols-2 gap-8 items-center">
-      <img
+      <Image
         src="/images/attr/12.png"
         alt="Desert Safari Dinner"
         className="rounded-2xl shadow-lg w-full h-72 object-cover"
@@ -62,7 +62,7 @@ export default function Hero() {
 
     {/* Jeep Safari */}
     <div className="grid md:grid-cols-2 gap-8 items-center">
-      <img
+      <Image
         src="/images/attr/13.png"
         alt="Jeep Safari"
         className="rounded-2xl shadow-lg w-full h-72 object-cover"
@@ -79,7 +79,7 @@ export default function Hero() {
 
     {/* Parasailing */}
     <div className="grid md:grid-cols-2 gap-8 items-center">
-      <img
+      <Image
         src="/images/attr/14.png"
         alt="Parasailing"
         className="rounded-2xl shadow-lg w-full h-72 object-cover"
@@ -96,7 +96,7 @@ export default function Hero() {
 
     {/* Quad Bike */}
     <div className="grid md:grid-cols-2 gap-8 items-center">
-      <img
+      <Image
         src="/images/attr/15.png"
         alt="Quad Bike"
         className="rounded-2xl shadow-lg w-full h-72 object-cover"
@@ -113,7 +113,7 @@ export default function Hero() {
 
     {/* Camel Safari */}
     <div className="grid md:grid-cols-2 gap-8 items-center">
-      <img
+      <Image
         src="/images/attr/16.png"
         alt="Camel Safari"
         className="rounded-2xl shadow-lg w-full h-72 object-cover"
