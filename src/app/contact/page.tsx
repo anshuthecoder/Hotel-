@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 import Image from "next/image";
+
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -11,11 +12,13 @@ export default function ContactPage() {
 
   const [status, setStatus] = useState("");
 
-  const handleChange = (e) => {
+  // ✅ Typed change handler
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  // ✅ Typed submit handler
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus("Sending...");
 
@@ -44,7 +47,6 @@ export default function ContactPage() {
           height={100}
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
-
         <h1 className="relative text-4xl font-bold text-black">Contact Us</h1>
       </section>
 
@@ -52,7 +54,7 @@ export default function ContactPage() {
       <section className="max-w-6xl mx-auto py-12 px-4 grid md:grid-cols-2 gap-10">
         {/* Form */}
         <div>
-          <h2 className="text-2xl font-bold  text-black mb-4">Hotel Booking Enquiry</h2>
+          <h2 className="text-2xl font-bold text-black mb-4">Hotel Booking Enquiry</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
@@ -79,7 +81,7 @@ export default function ContactPage() {
               value={formData.phone}
               onChange={handleChange}
               required
-              className="w-full border  text-black rounded-lg p-3"
+              className="w-full border text-black rounded-lg p-3"
             />
             <textarea
               name="message"
@@ -96,9 +98,9 @@ export default function ContactPage() {
           {status && <p className="mt-3 text-sm text-gray-700">{status}</p>}
         </div>
 
-        {/* Contact Info + Map */}
+        {/* Contact Info */}
         <div className="text-black">
-          <h2 className="text-2xl font-bold  mb-4">Contact Details</h2>
+          <h2 className="text-2xl font-bold mb-4">Contact Details</h2>
           <p className="mb-2">📞 +91 946 106 5214</p>
           <p className="mb-2">✉️ thartribehostel@gmail.com</p>
           <p className="mb-4">
