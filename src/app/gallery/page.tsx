@@ -16,7 +16,6 @@ const images = [
   { src: "/images/rooms/12.png", category: "Rooms" },
   { src: "/images/rooms/13.png", category: "Rooms" },
   { src: "/images/rooms/14.png", category: "Rooms" },
-  { src: "/images/rooms/15.png", category: "Rooms" },
   { src: "/images/rooms/4.png", category: "Rooms" },
   { src: "/images/attr/1.png", category: "Attraction" },
   { src: "/images/attr/2.png", category: "Attraction" },

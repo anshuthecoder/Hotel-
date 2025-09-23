@@ -25,10 +25,10 @@ export default function Navbar() {
 
   {/* Right side: social icons */}
   <div className="flex items-center gap-4">
-    <a href="#" aria-label="Instagram" className="hover:opacity-80">
+    <a href="https://www.instagram.com/thartribehostel" aria-label="Instagram" className="hover:opacity-80">
       <FaInstagram size={18} />
     </a>
-    <a href="#" aria-label="Facebook" className="hover:opacity-80">
+    <a href="https://www.facebook.com/share/19urnebVY7/" aria-label="Facebook" className="hover:opacity-80">
       <FaFacebookF size={18} />
     </a>
     <a href="https://wa.me/9636730201" aria-label="WhatsApp" className="hover:opacity-80">
@@ -91,7 +91,7 @@ export default function Navbar() {
             <Link href="/packages" className="text-black font-bold hover:text-[#D2A240]">Package</Link>
             <Link href="/contact" className="text-black font-bold hover:text-[#D2A240]">Contact Us</Link>
 
-            <Link href="/book" className="bg-[#FF9933] text-white px-4 py-2 rounded-lg font-medium hover:opacity-90 text-center">
+            <Link href="https://wa.me/9636730201" className="bg-[#FF9933] text-white px-4 py-2 rounded-lg font-medium hover:opacity-90 text-center">
               Book Now
             </Link>
           </div>

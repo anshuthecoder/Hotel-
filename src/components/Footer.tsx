@@ -8,7 +8,7 @@ export default function Footer() {
             Your cozy stay away from home, safe, clean and affordable
           </p>
           <p>For Booking Contact</p>
-          <p>-0141 2287565</p>
+          <p>9636730201</p>
           <p>Customer Support</p>
           <p>thartriblehostel.support.co.in</p>
         </div>
