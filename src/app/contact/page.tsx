@@ -12,12 +12,10 @@ export default function ContactPage() {
 
   const [status, setStatus] = useState("");
 
-  // ✅ Typed change handler
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // ✅ Typed submit handler
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus("Sending...");
@@ -47,11 +45,11 @@ export default function ContactPage() {
           height={100}
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
-        <h1 className="relative text-4xl font-bold text-black">Contact Us</h1>
+        <h1 className="relative text-4xl md:text-5xl font-bold text-black text-center px-4">Contact Us</h1>
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-6xl mx-auto py-12 px-4 grid md:grid-cols-2 gap-10">
+      <section className="max-w-6xl mx-auto py-12 px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Form */}
         <div>
           <h2 className="text-2xl font-bold text-black mb-4">Hotel Booking Enquiry</h2>
@@ -91,7 +89,7 @@ export default function ContactPage() {
               className="w-full border text-black rounded-lg p-3"></textarea>
             <button
               type="submit"
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 w-full md:w-auto">
               Send Enquiry
             </button>
           </form>
@@ -107,11 +105,12 @@ export default function ContactPage() {
             🏨 Fort Rd, Dhibba Para, Manak Chowk, Amar Sagar Pol, Jaisalmer,
             Rajasthan 345001
           </p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7115.5068576848635!2d70.9112752!3d26.9113194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3947bd502e390ab5%3A0x36457cb3b799ce93!2sThar%20Tribe%20Hostel%20Jaisalmer!5e0!3m2!1sen!2sin!4v1758559363866!5m2!1sen!2sin"
-            width="600"
-            height="450"
-            loading="lazy"></iframe>
+          <div className="w-full h-64 md:h-80 lg:h-96">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7115.5068576848635!2d70.9112752!3d26.9113194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3947bd502e390ab5%3A0x36457cb3b799ce93!2sThar%20Tribe%20Hostel%20Jaisalmer!5e0!3m2!1sen!2sin!4v1758559363866!5m2!1sen!2sin"
+              className="w-full h-full border-0 rounded-lg"
+              loading="lazy"></iframe>
+          </div>
         </div>
       </section>
     </div>
