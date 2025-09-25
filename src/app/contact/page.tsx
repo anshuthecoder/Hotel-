@@ -102,7 +102,7 @@ export default function ContactPage() {
           <p className="mb-2">📞 +91 946 106 5214</p>
           <p className="mb-2">✉️ thartribehostel@gmail.com</p>
           <p className="mb-4">
-            🏨 Fort Rd, Dhibba Para, Manak Chowk, Amar Sagar Pol, Jaisalmer,
+            🏨 Fort Rd, Dhibba Para, Manak ,Chowk, Amar Sagar Pol, Jaisalmer,
             Rajasthan 345001
           </p>
           <div className="w-full h-64 md:h-80 lg:h-96">
