@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="bg-[#D2A240] text-black text-sm py-2 px-4 rounded-t-lg flex justify-between items-center">
   {/* Left side: phone + email */}
   <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-6">
-    <a href="tel:9000524562" className="flex items-center gap-2 hover:underline">
+    <a href="tel:9636730201" className="flex items-center gap-2 hover:underline">
       <Phone size={16} /> 9636730201
     </a>
     <a href="mailto:thartribehostel@gmail.com" className="flex items-center gap-2 hover:underline">
